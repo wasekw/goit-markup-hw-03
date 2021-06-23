@@ -1,0 +1,218 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --primary-white-color: #ffffff;
+  --button-blue-color: #2196f3;
+  --button-hover-color: #188ce8;
+  --main-hiro-color: #2f303a;
+  --logo-color: #000000;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --bgd-button-color: #f5f4fa;
+  --main-font: "Roboto", sans-serif;
+  --second-font: "Raleway", sans-serif;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  font-family: var(--main-font);
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  line-height: 1.71;
+}
+
+/* ============ HEADER=================== */
+
+.colorword {
+  color: var(--button-blue-color);
+}
+
+.logo {
+  font-family: var(--second-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--logo-color);
+  text-decoration: none;
+  cursor: default;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  cursor: default;
+}
+
+.header-nav-link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+.link-contact {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--button-blue-color);
+}
+
+.link-contact:hover,
+.link-contact:focus {
+  color: var(--button-blue-color);
+}
+
+.current.header-nav-link {
+  color: var(--button-blue-color);
+}
+/* ============END HEADER================== */
+
+/* ============HERO======================== */
+
+.hero {
+  background-color: var(--main-hiro-color);
+  text-align: center;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+
+.button-hero {
+  background-color: var(--button-blue-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--primary-white-color);
+  cursor: pointer;
+}
+
+.button-hero:hover,
+.button-hero:focus {
+  background-color: var(--button-hover-color);
+}
+
+/* ================END HERO=================== */
+
+/* ===============ADVANTAGE================== */
+
+.advantage-list-title {
+  font-weight: 700;
+  line-height: 1.14;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+/* ================END ADVANTAGE=========== */
+
+/* =============OUR WORKS AND TEAM=======*/
+
+.work-title,
+.title-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--title-text-color);
+}
+
+.team-title-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--title-text-color);
+  text-align: center;
+}
+
+.team-title-proffesion {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+
+.team {
+  background-color: var(--bgd-button-color);
+}
+
+/* ========END OUR WORKS AND TEAM=============== */
+
+/* ============PORTFOLIO=========================D */
+
+.portfolio-button {
+  background-color: var(--bgd-button-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--title-text-color);
+  cursor: pointer;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: var(--button-blue-color);
+  color: var(--primary-white-color);
+}
+
+.portfolio-button.current {
+  background-color: var(--button-blue-color);
+  color: var(--primary-white-color);
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--primary-text-color);
+}
+
+/* ===========END PORTFOLIO===================== */
+
+/* ===============FOOTER======================== */
+
+.footer {
+  background-color: var(--main-hiro-color);
+}
+.footer-logo-link {
+  font-family: var(--second-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--primary-white-color);
+}
+
+.footer-link {
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: var(--primary-white-color);
+}
+
+.address > a.link {
+  color: var(--primary-white-color);
+}
