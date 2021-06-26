@@ -354,7 +354,6 @@ img {
 .portfolio-list-line {
   margin-top: 30px;
   margin-left: 30px;
-  padding-bottom: 20px;
   flex-basis: calc((100% - 90px) / 3);
 }
 
