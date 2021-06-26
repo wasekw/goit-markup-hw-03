@@ -356,17 +356,23 @@ img {
   margin-left: 30px;
   padding-bottom: 20px;
   flex-basis: calc((100% - 90px) / 3);
-  border-bottom: 1px solid #eeeeee;
 }
 
 .portfolio-link {
+  display: block;
   cursor: pointer;
 }
 
+.portfolio-container {
+  padding: 20px 24px;
+
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+}
+
 .portfolio-title {
-  margin-top: 20px;
   margin-bottom: 4px;
-  padding-left: 24px;
 
   font-weight: 700;
   font-size: 18px;
@@ -376,8 +382,6 @@ img {
 }
 
 .portfolio-text {
-  padding-left: 24px;
-
   font-size: 16px;
   line-height: 1.87;
   color: var(--primary-text-color);
