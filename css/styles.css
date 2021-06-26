@@ -393,11 +393,12 @@ img {
 
 .footer {
   background-color: var(--main-hiro-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-logo-link {
   display: block;
-  padding-top: 60px;
-  margin-bottom: 19px;
+  margin-bottom: 20px;
 
   font-family: var(--second-font);
   font-weight: 700;
@@ -407,6 +408,7 @@ img {
 }
 
 .footer-link {
+  cursor: pointer;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -421,13 +423,9 @@ img {
 }
 
 .address {
-  margin-bottom: 7px;
-}
-
-.footer-list {
-  padding-bottom: 60px;
+  margin-bottom: 9px;
 }
 
 .footer-list .footer-list-item:not(:last-child) {
-  margin-bottom: 7px;
+  margin-bottom: 9px;
 }
