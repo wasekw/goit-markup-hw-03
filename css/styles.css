@@ -407,8 +407,12 @@ img {
 }
 
 .footer-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.5;
+
+  display: block;
   cursor: pointer;
-  line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -421,10 +425,10 @@ img {
   color: var(--primary-white-color);
 }
 
-.address {
+.footer-list .footer-list-item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.footer-list .footer-list-item:not(:last-child) {
+.address > a.footer-link {
   margin-bottom: 9px;
 }
